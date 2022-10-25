@@ -1,0 +1,44 @@
+#
+#
+# Free config By tyxm.n
+#
+# Discord : tyxm.n#1979
+# DiscordServer : https://discord.gg/hGZ3HxCJER
+info:
+  version: '1.0'
+sentry-dsn: ''
+enable-books: true
+enable-suffocation-optimization: true
+enable-async-mob-spawning: true
+enable-async-entity-tracker: true
+enable-async-pathfinding: true
+# Optimizes projectile settings
+projectile:
+  max-loads-per-tick: 5
+  max-loads-per-projectile: 5
+# Optimizes entity brains when
+# they're far away from the player
+dab:
+  enabled: true
+  start-distance: 7
+  max-tick-freq: 20
+  activation-dist-mod: 7
+  blacklisted-entities: []
+# These values define a entity's maximum lifespan. If an
+# entity is in this list and it has survived for longer than
+# that number of ticks, then it will be removed. Setting a value to
+# -1 disables this feature.
+entity_timeouts:
+  SNOWBALL: -1
+  LLAMA_SPIT: -1
+inactive-goal-selector-throttle: true
+# Configures Flare, the built-in profiler
+flare:
+  url: https://flare.airplane.gg
+# Options for connecting to Pufferfish/Airplane's online utilities
+web-services:
+  token: ''
+# Settings for things that don't belong elsewhere
+misc:
+  disable-method-profiler: true
+  disable-out-of-order-chat: false
