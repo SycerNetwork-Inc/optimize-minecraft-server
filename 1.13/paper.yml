@@ -1,0 +1,177 @@
+
+        #
+#
+# Free config By tyxm.n
+#
+# Discord : tyxm.n#1979
+# DiscordServer : https://discord.gg/hGZ3HxCJER
+
+verbose: false
+config-version: 18
+settings:
+  enable-player-collisions: true
+  player-auto-save-rate: -1
+  max-player-auto-save-per-tick: -1
+  use-alternative-luck-formula: false
+  load-permissions-yml-before-plugins: true
+  incoming-packet-spam-threshold: 300
+  sleep-between-chunk-saves: false
+  region-file-cache-size: 256
+  save-empty-scoreboard-teams: false
+  suggest-player-names-when-null-tab-completions: true
+  bungee-online-mode: true
+  save-player-data: true
+  use-versioned-world: false
+  queue-light-updates-max-loss: 10
+  async-chunks:
+    enable: true
+    generation: true
+    thread-per-world-generation: true
+    load-threads: -1
+  watchdog:
+    early-warning-every: 5000
+    early-warning-delay: 10000
+  velocity-support:
+    enabled: false
+    online-mode: false
+    secret: ''
+  spam-limiter:
+    tab-spam-increment: 1
+    tab-spam-limit: 500
+  book-size:
+    page-max: 2560
+    total-multiplier: 0.98
+timings:
+  enabled: true
+  verbose: true
+  server-name-privacy: false
+  hidden-config-entries:
+  - database
+  - settings.bungeecord-addresses
+  history-interval: 300
+  history-length: 3600
+messages:
+  no-permission: '&cI''m sorry, but you do not have permission to perform this command.
+    Please contact the server administrators if you believe that this is in error.'
+  kick:
+    connection-throttle: Connection throttled! Please wait before reconnecting.
+    flying-player: Flying is not enabled on this server
+    flying-vehicle: Flying is not enabled on this server
+    authentication-servers-down: ''
+world-settings:
+  default:
+    keep-spawn-loaded: true
+    skip-entity-ticking-in-chunks-scheduled-for-unload: true
+    armor-stands-do-collision-entity-lookups: true
+    skeleton-horse-thunder-spawn-chance: 0.01
+    keep-spawn-loaded-range: 8
+    auto-save-interval: -1
+    disable-ice-and-snow: false
+    disable-thunder: false
+    armor-stands-tick: false
+    nether-ceiling-void-damage-height: 0
+    allow-non-player-entities-on-scoreboards: false
+    water-over-lava-flow-speed: 5
+    use-faster-eigencraft-redstone: true
+    container-update-tick-rate: 3
+    parrots-are-unaffected-by-player-movement: false
+    disable-explosion-knockback: false
+    non-player-arrow-despawn-rate: 60
+    creative-arrow-despawn-rate: 60
+    prevent-tnt-from-moving-in-water: false
+    grass-spread-tick-rate: 4
+    bed-search-radius: 1
+    fixed-chunk-inhabited-time: -1
+    optimize-explosions: true
+    remove-corrupt-tile-entities: false
+    queue-light-updates: false
+    experience-merge-max-value: -1
+    falling-block-height-nerf: 0
+    tnt-entity-height-nerf: 0
+    max-entity-collisions: 3
+    count-all-mobs-for-spawning: false
+    prevent-moving-into-unloaded-chunks: true
+    max-chunk-sends-per-tick: 81
+    delay-chunk-unloads-by: 10s
+    use-vanilla-world-scoreboard-name-coloring: false
+    enable-treasure-maps: true
+    treasure-maps-return-already-discovered: false
+    max-auto-save-chunks-per-tick: 8
+    save-queue-limit-for-auto-save: 50
+    max-chunk-gens-per-tick: 10
+    fire-physics-event-for-redstone: false
+    disable-creeper-lingering-effect: false
+    filter-nbt-data-from-spawn-eggs-and-related: true
+    duplicate-uuid-resolver: saferegen
+    duplicate-uuid-saferegen-delete-range: 32
+    mob-spawner-tick-rate: 2
+    spawner-nerfed-mobs-should-jump: false
+    allow-leashing-undead-horse: false
+    baby-zombie-movement-speed: 0.5
+    all-chunks-are-slime-chunks: false
+    portal-search-radius: 128
+    disable-teleportation-suffocation-check: false
+    anti-xray:
+      enabled: false
+      engine-mode: 1
+      chunk-edge-mode: 2
+      max-chunk-section-index: 3
+      update-radius: 2
+      hidden-blocks:
+      - gold_ore
+      - iron_ore
+      - coal_ore
+      - lapis_ore
+      - mossy_cobblestone
+      - obsidian
+      - chest
+      - diamond_ore
+      - redstone_ore
+      - lit_redstone_ore
+      - clay
+      - emerald_ore
+      - ender_chest
+      replacement-blocks:
+      - stone
+      - planks
+    game-mechanics:
+      disable-player-crits: false
+      disable-end-credits: false
+      disable-chest-cat-detection: true
+      shield-blocking-delay: 5
+      disable-sprint-interruption-on-attack: false
+      disable-relative-projectile-velocity: false
+      scan-for-legacy-ender-dragon: true
+      disable-unloaded-chunk-enderpearl-exploit: true
+      villages-load-chunks: false
+    max-growth-height:
+      cactus: 3
+      reeds: 3
+    fishing-time-range:
+      MinimumTicks: 100
+      MaximumTicks: 600
+    despawn-ranges:
+      soft: 28
+      hard: 96
+    lootables:
+      auto-replenish: false
+      restrict-player-reloot: true
+      reset-seed-on-fill: true
+      max-refills: -1
+      refresh-min: 12h
+      refresh-max: 2d
+    frosted-ice:
+      enabled: true
+      delay:
+        min: 20
+        max: 40
+    lightning-strike-distance-limit:
+      sound: -1
+      impact-sound: -1
+      flash: -1
+    hopper:
+      cooldown-when-full: true
+      disable-move-event: false
+    squid-spawn-height:
+      maximum: 0.0
+    

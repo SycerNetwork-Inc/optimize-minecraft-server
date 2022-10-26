@@ -1,0 +1,40 @@
+#
+#
+# Free config By tyxm.n
+#
+# Discord : tyxm.n#1979
+# DiscordServer : https://discord.gg/hGZ3HxCJER
+  version: '1.0'
+# Options for connecting to Airplane's online utilities
+web-services:
+  token: ''
+# Optimizes projectile settings
+projectile:
+  # Controls how many chunks are allowed
+  # to be sync loaded by projectiles in a tick.
+  max-loads-per-tick: 10
+  # Controls how many chunks a projectile
+  # can load in its lifetime before it gets
+  # automatically removed.
+  max-loads-per-projectile: 10
+# Optimizes entity brains when
+# they're far away from the player
+dab:
+  enabled: false
+  # This value determines how far away an entity has to be
+  # from the player to start being effected by DEAR.
+  start-distance: 7
+  # This value defines how often in ticks, the furthest entity
+  # will get their pathfinders and behaviors ticked. 20 = 1s
+  max-tick-freq: 20
+  # This value defines how much distance modifies an entity's
+  # tick frequency. freq = (distanceToPlayer^2) / (2^value)
+  # If you want further away entities to tick less often, use 7.
+  # If you want further away entities to tick more often, try 9.
+  activation-dist-mod: 7
+  # A list of entities to ignore for activation
+  blacklisted-entities: []
+# Configures Flare, the built-in profiler
+flare:
+  # Sets the server to use for profiles.
+  url: https://flare.airplane.gg

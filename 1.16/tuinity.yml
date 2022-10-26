@@ -1,0 +1,37 @@
+#
+#
+# Free config By tyxm.n
+#
+# Discord : tyxm.n#1979
+# DiscordServer : https://discord.gg/hGZ3HxCJER
+send-full-pos-for-hard-colliding-entities: true
+delay-chunkunloads-by: 5
+lag-compensate-block-breaking: true
+use-new-light-engine: true
+config-version-please-do-not-modify-me: 2
+packet-limiter:
+  kick-message: '&cSent too many packets'
+  limits:
+    all:
+      interval: 7.0
+      max-packet-rate: 500.0
+    PacketPlayInAutoRecipe:
+      interval: 4.0
+      max-packet-rate: 5.0
+      action: DROP
+player-chunks:
+  min-load-radius: 2
+  max-concurrent-sends: 5.0
+  max-concurrent-loads: -6.0
+  autoconfig-send-distance: true
+  enable-mc162253-workaround: true
+  target-chunk-send-rate: -35.0
+  enable-frustum-priority: false
+world-settings:
+  default:
+    worldgen:
+      seeds:
+        populator: default
+  world: {}
+  world_nether: {}
+  world_the_end: {}
